@@ -5,12 +5,12 @@ function englishToPigLatin(englishWord) {
     return englishWord + 'ay';
   } else {
     return englishWord.slice(1) + englishWord.charAt(0) + 'ay';
-  }
-}
+  };
+};
 
 function isVowel(letter) {
   return letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u';
-}
+};
 
 $(function() {
 

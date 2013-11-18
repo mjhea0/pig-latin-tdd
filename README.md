@@ -8,4 +8,14 @@ Why? because it's fun.
 2. write code that should pass the test
 3. run the test, then refactor the code (if necessary)
 
-### Test 1
+### Instructions
+
+1. Add tests to "spec.js" (think about the rules for pig latin)
+2. Run tests by opening "spec-runner.html" in your browser
+3. Add code to "scripts.js"
+
+### Results
+
+
+
+
