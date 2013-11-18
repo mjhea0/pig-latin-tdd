@@ -13,13 +13,20 @@ function isVowel(letter) {
 }
 
 $(function() {
-  $("form#translator").submit(function() {
+
+  $("#again-btn").hide();
+
+  $("#translate-btn").click(function() {
     var englishWord = $("input#word").val();
     var translatedWord = englishToPigLatin(englishWord);
 
     $("#english").append(englishWord);
     $("#pig-latin").append(translatedWord);
 
+    $("#word").hide();
+    $("#translate-btn").hide();
+    $("#instructions").hide();
+    $("#again-btn").show();
     $("#translation").show();
     return false;
   });

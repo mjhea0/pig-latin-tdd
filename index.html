@@ -12,14 +12,17 @@
       <h1>Pig Latin translator</h1>
 
       <form id="translator">
-        <label for="word">Enter an English word to translate:</label>
+        <label id="instructions" for="word">Enter an English word to translate:</label>
         <input id="word" type="text">
         
-        <button type="submit" class="btn">Translate</button>
+        <button id="translate-btn" class="btn btn-primary">Translate</button>
+        <button id="again-btn" class="btn btn-success">Again?</button>
       </form>
+      
+      <br>
 
       <div id="translation">
-        <p>In Pig Latin, <span id="english"></span> is <span id="pig-latin"></span>.</p>
+        <h3>In Pig Latin, <span id="english"></span> is <span id="pig-latin"></span>.</h3>
       </div>
     </div>
   </body>
